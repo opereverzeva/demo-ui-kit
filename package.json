@@ -1,0 +1,33 @@
+{
+  "name": "demo-ui-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1",
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "@westtrade/posthtml-custom-elements": "0.0.3",
+    "autoprefixer": "^9.5.1",
+    "posthtml-expressions": "^1.1.0",
+    "posthtml-extend": "^0.3.0",
+    "posthtml-modules": "^0.4.2",
+    "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opereverzeva/demo-ui-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opereverzeva/demo-ui-kit/issues"
+  },
+  "homepage": "https://github.com/opereverzeva/demo-ui-kit#readme"
+}

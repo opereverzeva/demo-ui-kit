@@ -1,0 +1,42 @@
+.ui-dropdown
+    // display flex
+    &__header
+        margin-left 15px
+        cursor pointer
+    &__header::before
+        content: url("../icon/_.svg")
+        display inline-block
+        width 10px
+        height 10px
+        line-height 10px
+        font-size: 10px
+        vertical-align middle
+        text-align left 
+        color: var(--black-color)
+        cursor pointer
+        margin-right 5px
+
+
+    &__header_active::before
+        transform: rotate(90deg)
+    
+    &__list
+        list-style none 
+        margin 0
+        padding 0
+        &_hidden
+            display none
+
+    
+    &__item
+        font-family var(--roboto-font)
+        padding-left 19px
+        font-size: 15px
+        font-weight 300
+        line-height 29px
+        cursor pointer
+        &::before
+            content: '·'
+            display: inline-block
+
+        

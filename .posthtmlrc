@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "@westtrade/posthtml-custom-elements": {},
+    "posthtml-modules": {},
+    "posthtml-extend": {},
+    "posthtml-expressions": {}
+  }
+}

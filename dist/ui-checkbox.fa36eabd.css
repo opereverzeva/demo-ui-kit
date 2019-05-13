@@ -1,0 +1,33 @@
+.ui-checkbox__input {
+  display: none;
+}
+.ui-checkbox__input+.ui-checkbox__label {
+  cursor: pointer;
+}
+.ui-checkbox__input+.ui-checkbox__label::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--black-color);
+  border-radius: 3px;
+  vertical-align: middle;
+  background: #fff;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.ui-checkbox__input:checked+.ui-checkbox__label::before {
+  content: url("Icon-Check.aac4fda4.svg");
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  text-align: center;
+  background: var(--main-gradient);
+  color: var(--black-color);
+}
+.ui-checkbox__label {
+  font-family: var(--roboto-font);
+}
+
+
+/*# sourceMappingURL=/ui-checkbox.fa36eabd.css.map */

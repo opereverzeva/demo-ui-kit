@@ -1,0 +1,48 @@
+.ui-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background: var(--main-gradient);
+  color: var(--black-color);
+  border: 0;
+  cursor: pointer;
+  padding: 0 15px;
+}
+.ui-button__filter {
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: var(--yellow-shadow);
+}
+.ui-button__add-to-basket {
+  background: #ffda55;
+  border-radius: 10px;
+  box-shadow: var(--yellow-shadow);
+}
+.ui-button__ok {
+  width: 50px;
+  border-radius: 50% 0 50% 50%;
+  box-shadow: var(--yellow-shadow);
+}
+.ui-button__pay {
+  width: 155px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #fff;
+}
+.ui-button__long {
+  width: 335px;
+  height: 50px;
+  box-shadow: var(--yellow-shadow);
+  border-radius: 10px;
+}
+.ui-button__icon_yes {
+  display: none;
+}
+.ui-button__text_active {
+  margin-right: 9px;
+}
+
+
+/*# sourceMappingURL=/ui-button.aa52a5c2.css.map */

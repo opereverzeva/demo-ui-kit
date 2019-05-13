@@ -1,0 +1,26 @@
+.ui-checkbox__input
+    display: none
+    &+.ui-checkbox__label
+        // margin-left 24px
+        cursor pointer
+    &+.ui-checkbox__label::before
+        content: ''
+        display inline-block
+        width 16px
+        height 16px
+        border: 1px solid var(--black-color) 
+        border-radius: 3px
+        vertical-align middle
+        background: white
+        margin-right 8px
+        cursor pointer
+    &:checked+.ui-checkbox__label::before
+        content: url('../icon/Icon-Check.svg')
+        width 16px
+        height 16px
+        vertical-align middle
+        text-align: center
+        background: var(--main-gradient)
+        color: var(--black-color) 
+.ui-checkbox__label
+    font-family: var(--roboto-font)

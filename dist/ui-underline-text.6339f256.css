@@ -1,0 +1,36 @@
+.ui-underline-text {
+  border: none;
+  background: #fff;
+  min-width: 58px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+}
+.ui-underline-text__link {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--black-color);
+  font-family: var(--roboto-font);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  width: 100%;
+}
+.ui-underline-text__link:after {
+  display: block;
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: var(--main-gradient);
+  transition: width 0.3s ease-in-out;
+}
+.ui-underline-text__link:active::after,
+.ui-underline-text__link:hover::after,
+.ui-underline-text__link:focus::after {
+  width: 100%;
+}
+
+
+/*# sourceMappingURL=/ui-underline-text.6339f256.css.map */
